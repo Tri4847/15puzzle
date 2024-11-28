@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fifteen Puzzle</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Fifteen Puzzle</h1>
+  <button id="startB">Start</button>
+  <div id="message"></div>
+  <div id="board">
+    <div class="tile" data-row="0" data-col="0">1</div>
+    <div class="tile" data-row="0" data-col="1">2</div>
+    <div class="tile" data-row="0" data-col="2">3</div>
+    <div class="tile" data-row="0" data-col="3">4</div>
+    <div class="tile" data-row="1" data-col="0">5</div>
+    <div class="tile" data-row="1" data-col="1">6</div>
+    <div class="tile" data-row="1" data-col="2">7</div>
+    <div class="tile" data-row="1" data-col="3">8</div>
+    <div class="tile" data-row="2" data-col="0">9</div>
+    <div class="tile" data-row="2" data-col="1">10</div>
+    <div class="tile" data-row="2" data-col="2">11</div>
+    <div class="tile" data-row="2" data-col="3">12</div>
+    <div class="tile" data-row="3" data-col="0">13</div>
+    <div class="tile" data-row="3" data-col="1">14</div>
+    <div class="tile" data-row="3" data-col="2">15</div>
+
+  </div>
+  <button id="shuffleB" style="display: none;">Shuffle</button>
+  <button id="solveB" style="display: none;">Solve</button>
+  <script src="fifteen.js"></script> 
+</body>
+</html>
