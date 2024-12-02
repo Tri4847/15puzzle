@@ -19,7 +19,13 @@ document.getElementById("startB").onclick = function () {
 }
 
 function board() {
+  // Get selected puzzle or default to "sonic" if none are chosen
+  const selectedPuzzle = localStorage.getItem("selectedPuzzle") || "sonic";
+
   tiles.forEach((tile) => {
+    // Apply selected puzzle to each tile
+    tile.style.backgroundImage = `url('${selectedPuzzle}.png')`;
+
     //gets row and column from grid in html
     const row = parseInt(tile.dataset.row, 10)
     const col = parseInt(tile.dataset.col, 10)
