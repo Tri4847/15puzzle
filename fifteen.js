@@ -14,8 +14,8 @@ document.getElementById("startB").onclick = function () {
     tile.style.display = "block"
   })
   const messageArea = document.getElementById("message")
-  messageArea.textContent = "click shuffle to start"
-  messageArea.style.color = "black"
+  messageArea.textContent = "Click Shuffle to start"
+  messageArea.style.color = "#488787"
 }
 
 function board() {
@@ -86,9 +86,9 @@ function checkSolved() {
 
   const messageArea = document.getElementById("message")
   if (solved) {
-    updateMessage("puzzle solved!", "green")
+    updateMessage("Puzzle solved!", "green")
   } else {
-    updateMessage("puzzle is not solved yet", "black")
+    updateMessage("Puzzle is not solved yet", "red")
   }
 }
 
@@ -157,7 +157,7 @@ document.getElementById("shuffleB").onclick = function () {
     moveTile.call(randNeighbor)
   }
 
-  updateMessage("puzzle is not solved yet", "black")
+  updateMessage("Puzzle is not solved yet", "red")
   isMovable()
 }
 
@@ -172,7 +172,7 @@ document.getElementById("solveB").onclick = function () {
     tile.dataset.row = originalRow
     tile.dataset.col = originalCol
   })
-  updateMessage("puzzle solved!", "green")
+  updateMessage("Puzzle solved!", "green")
 
   //reset location of empty space
   emptyRow = 3
