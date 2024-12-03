@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Choose Your Puzzle</title>
+  <link rel="stylesheet" href="homepage.css">
+</head>
+<body>
+  <header>
+    <h1>15Puzzle</h1>
+    <p>Choose a background for your puzzle!</p>
+  </header>
+  <div class="puzzle-container">
+    <div class="puzzle-card" onclick="selectPuzzle('sonic')">
+      <img src="sonic.png" alt="Sonic Puzzle">
+      <div class="puzzle-name">Sonic</div>
+    </div>
+    <div class="puzzle-card" onclick="selectPuzzle('pikachu')">
+      <img src="pikachu.png" alt="Pikachu Puzzle">
+      <div class="puzzle-name">Pikachu</div>
+    </div>
+    <div class="puzzle-card" onclick="selectPuzzle('spongebob')">
+      <img src="spongebob.png" alt="SpongeBob Puzzle">
+      <div class="puzzle-name">SpongeBob</div>
+    </div>
+    <div class="puzzle-card" onclick="selectPuzzle('snoopy')">
+      <img src="snoopy.png" alt="Snoopy Puzzle">
+      <div class="puzzle-name">Snoopy</div>
+    </div>
+  </div>
+  <script src="homepage.js"></script>
+</body>
+</html>
