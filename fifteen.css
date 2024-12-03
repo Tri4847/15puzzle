@@ -66,7 +66,7 @@ h1 {
     cursor: pointer;
   }  
 
-#shuffleB, #solveB {
+#shuffleB, #solveB, #homeB {
     margin: 20px auto;
     padding: 10px 20px;
     font-size: 16px;
@@ -80,7 +80,7 @@ h1 {
     transition: transform 0.3s ease, border-color 0.3s ease;
 }
 
-#shuffleB:hover, #solveB:hover {
+#shuffleB:hover, #solveB:hover, #homeB:hover{
     transform: scale(1.05);
     color: #8befd2;
     border-color: #8befd2;
