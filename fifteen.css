@@ -62,7 +62,8 @@ h1 {
   
   .tile.movable:hover {
     border-color: red;
-    color: red;
+    color: #41d141;
+    text-decoration: underline;
     cursor: pointer;
   }  
 
