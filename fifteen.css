@@ -66,7 +66,7 @@ h1 {
     cursor: pointer;
   }  
 
-#shuffleB, #solveB, #homeB {
+#shuffleB, #solveB{
     margin: 20px auto;
     padding: 10px 20px;
     font-size: 16px;
@@ -78,6 +78,22 @@ h1 {
     color: white;
     background-color: #569e9e;
     transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+#homeB{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+  border: 5px solid #488787;
+  border-radius: 10px;
+  color: white;
+  background-color: #569e9e;
+  transition: transform 0.3s ease, border-color 0.3s ease;
 }
 
 #shuffleB:hover, #solveB:hover, #homeB:hover{
